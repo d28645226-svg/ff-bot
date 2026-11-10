@@ -23,7 +23,7 @@ skin_message = get_free_fire_skin_info()
 bot.send_message(chat_id=CHANNEL_USERNAME, text=skin_message, parse_mode="Markdown")
 print("Post muvaffaqiyatli yuborildi!")
 except Exception as e:
-print(f"Xatolik yuz berdi.: {e}")
+print(f"Xatolik yuz berdi..: {e}")
 
 time.sleep(600)
 
