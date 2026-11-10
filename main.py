@@ -3,7 +3,8 @@ import time
 import requests
 from aiogram import Bot
 
-TOKEN = "9166658709:AAHrVgEgtrt1UV_gXwRlHZP8p2n7d3Vj5oI"
+TOKEN = os.getenv("BOT_TOKEN")
+
 CHANNEL_NAME = "@TopFreeFireSkin"
 
 bot = Bot(token=TOKEN)
