@@ -17,7 +17,7 @@ def get_free_fire_skin_info():
     return text
 
 def main():
-    print("Bot ishga tushdi va har 10 daqiqada ishlaydi...")
+    print("Bot ishga tushdi va har 10 daqiqada ishlaydi....")
     while True:
         try:
             skin_message = get_free_fire_skin_info()
